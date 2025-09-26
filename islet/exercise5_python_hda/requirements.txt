@@ -1,0 +1,8 @@
+# islet/exercise5/requirements.txt Optional file to use as needed
+python-openstackclient
+pystac-client
+pystac
+destinelab
+python-dotenv
+geopandas
+tqdm
