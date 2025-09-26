@@ -10,3 +10,8 @@
 - 3_ec2_credentials.md : Use openstack cli to generate ec2 credentials (used in s3cmd to interact with private bucket)
 - 4_private_buckets_s3cmd.md : Interact with a private bucket
 
+
+## Create a bucket
+
+- Notice that it is not public by default
+![alt text](image.png)

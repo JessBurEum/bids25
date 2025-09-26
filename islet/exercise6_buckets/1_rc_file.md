@@ -65,6 +65,7 @@ Use `scp` to securely copy the file to your VM.
 **Linux/Mac Example:**
 ```bash
 scp -i ~/.ssh/my_vm_key.pem ~/Downloads/BiDS25_1-openrc-app-credentials.sh eouser@<floating_ip>:/home/eouser/
+
 ```
 
 **Windows Command Prompt or PowerShell Example:**
@@ -75,6 +76,7 @@ scp -i C:\Users\<YourName>\.ssh\my_vm_key.pem C:\Users\<YourName>\Downloads\BiDS
 **Example with actual IP:**
 ```powershell
 scp -i C:\Users\jburford\.ssh\jess-bids-key-private-leonardo BiDS25_1-openrc-app-credentials.sh eouser@217.71.197.133:/home/eouser/
+
 ```
 
 ---
