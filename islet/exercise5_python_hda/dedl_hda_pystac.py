@@ -126,20 +126,20 @@ console.print(f"Download link of asset: [blue]{down_uri}[/blue]")
 # ==========================
 # Download large asset with progress bar
 # ==========================
-filename = f"{selected_item.id}.{selected_item.assets['downloadLink'].media_type.split('/')[1]}"
-url = selected_item.assets["downloadLink"].href
+# filename = f"{selected_item.id}.{selected_item.assets['downloadLink'].media_type.split('/')[1]}"
+# url = selected_item.assets["downloadLink"].href
 
-with requests.get(url, headers=auth_headers, stream=True) as response:
-    response.raise_for_status()
-    total_size = int(response.headers.get("Content-Length", 0))
-    chunk_size = 10 * 1024 * 1024  # 10 MB chunks
+# with requests.get(url, headers=auth_headers, stream=True) as response:
+#     response.raise_for_status()
+#     total_size = int(response.headers.get("Content-Length", 0))
+#     chunk_size = 10 * 1024 * 1024  # 10 MB chunks
 
-    with open(filename, "wb") as f, tqdm(
-        total=total_size, unit="B", unit_scale=True, unit_divisor=1024, desc=filename
-    ) as pbar:
-        for chunk in response.iter_content(chunk_size=chunk_size):
-            if chunk:
-                f.write(chunk)
-                pbar.update(len(chunk))
+#     with open(filename, "wb") as f, tqdm(
+#         total=total_size, unit="B", unit_scale=True, unit_divisor=1024, desc=filename
+#     ) as pbar:
+#         for chunk in response.iter_content(chunk_size=chunk_size):
+#             if chunk:
+#                 f.write(chunk)
+#                 pbar.update(len(chunk))
 
-console.print(f"[green]Asset downloaded successfully as {filename}[/green]")
+# console.print(f"[green]Asset downloaded successfully as {filename}[/green]")
