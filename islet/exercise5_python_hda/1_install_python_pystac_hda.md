@@ -21,14 +21,13 @@ This also triggers execution of the Python script `dedl_hda_pystac.py`.
 
 ---
 
-### Step 2: Create Exercise Folder
-1. Ensure the following folder exists:
+### Step 2: cd to excercise5 foleder following git clone
+
+Following previous git clone command you should find exercise5 in the following path.
+
+1. Navigate to the folder:
    ```bash
-   /home/eouser/projects/exercise5
-   ```
-2. Navigate to the folder:
-   ```bash
-   cd /home/eouser/projects/exercise5
+   cd /home/eouser/projects/bids25/islet/exercise5_python_hda/
    ```
 
 ---
