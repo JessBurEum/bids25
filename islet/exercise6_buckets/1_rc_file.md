@@ -97,7 +97,7 @@ scp -i C:\Users\jburford\.ssh\jess-bids-key-private-leonardo BiDS25_1-openrc-app
 - The file BiDS25_1-openrc-app-credentials.sh will be used to connect to openstack
 
    ```bash
-   mv ~/BiDS25_1-openrc-app-credentials.sh ~/projects/exercise5/
+   mv ~/BiDS25_1-openrc-app-credentials.sh ~/projects/bids25/exercise5_python_hda/
    ```
 
 ---
@@ -105,7 +105,7 @@ scp -i C:\Users\jburford\.ssh\jess-bids-key-private-leonardo BiDS25_1-openrc-app
 ### Step 5: Set Permissions (Recommended)
 Restrict access to the RC file so only your user can read it:
 ```bash
-chmod 600 ~/projects/exercise5/BiDS25_1-openrc-app-credentials.sh
+chmod 600 ~/projects/bids25/islet/exercise5_python.hda/BiDS25_1-openrc-app-credentials.sh
 ```
 
 ---
