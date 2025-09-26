@@ -124,7 +124,7 @@ down_uri = selected_item.assets["downloadLink"].href
 console.print(f"Download link of asset: [blue]{down_uri}[/blue]")
 
 # ==========================
-# Download large asset with progress bar
+# Download large asset with progress bar : Files are typically very large around 1Gb or more, so this is commented out
 # ==========================
 # filename = f"{selected_item.id}.{selected_item.assets['downloadLink'].media_type.split('/')[1]}"
 # url = selected_item.assets["downloadLink"].href
