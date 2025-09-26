@@ -36,6 +36,10 @@ Following previous git clone command you should find exercise5 in the following 
 In the `exercise5` folder, ensure the following three files exist at the root level:
 
 1. **.env** – Contains your DESP credentials.
+
+
+
+
 2. **setup_python.sh** – Bash script to:
    - Create a Python virtual environment
    - Install the required dependencies
