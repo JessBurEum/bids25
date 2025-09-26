@@ -8,4 +8,4 @@ Here we find the exercises that will be available for the BiDS conference, Riga,
 - exercise3_floating_ip : Attach a floating ip to a vm
 - exercise4_vm_connection : Connect to a vm (command line, putty, vscode)
 - exercise5_python_hda : Create a python environment and run a script
-- exercise6_bukckets : Bucket related exercises including use of openstack client
+- exercise6_buckets : Bucket related exercises including use of openstack client
