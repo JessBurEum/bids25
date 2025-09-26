@@ -24,14 +24,6 @@ Configure VS Code to use your `venv` virtual environment as the workspace Python
 ### Step 3: Open the Command Palette
 1. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac).
 2. Type `Python: Select Interpreter` and select it.
-3. Enter interpreter path...
-4. Find...
-5. select venv/bin/python
-
-The path should be like this
-```bash
-/home/eouser/projects/bids25/islet/exercise5_python_hda/venv/bin/python
-```
 
 ---
 
@@ -39,7 +31,7 @@ The path should be like this
 1. Look for your virtual environment in the list, e.g., `./venv/bin/python`.
 2. If it’s not listed:
    - Choose `Enter interpreter path → Find...`
-   - Navigate to your `venv` folder, e.g., `venv/bin/python3.12`, and select it.
+   - Navigate to your `venv` folder, e.g., `/home/eouser/projects/bids25/islet/exercise5_python_hda/venv/bin/python3.12`, and select it.
 
 ---
 
