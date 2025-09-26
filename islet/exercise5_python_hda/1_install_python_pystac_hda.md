@@ -26,6 +26,7 @@ This also triggers execution of the Python script `dedl_hda_pystac.py`.
 Following previous git clone command you should find exercise5 in the following path.
 
 1. Navigate to the folder:
+
    ```bash
    cd /home/eouser/projects/bids25/islet/exercise5_python_hda/
    ```
@@ -59,12 +60,11 @@ In the `exercise5` folder, ensure the following three files exist at the root le
 2. Update it with your DESP credentials as instructed.
 3. Save and close the file.
 
-```bash
-# Set your credentials
-DESP_USERNAME=TODO
-DESP_PASSWORD=TODO
-
-```
+   ```bash
+   # Set your credentials
+   DESP_USERNAME=TODO
+   DESP_PASSWORD=TODO
+   ```
 
 
 
