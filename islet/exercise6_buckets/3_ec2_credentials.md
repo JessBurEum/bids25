@@ -10,7 +10,7 @@ Use the OpenStack CLI to create **EC2-style credentials** (`access` and `secret`
 ### Step 1: Navigate to the Exercise5 Folder
 Move into the project folder:
 ```bash
-cd /home/eouser/projects/exercise5
+cd /home/eouser/projects/bids25/islet/exercise5_python_hda
 ```
 
 ---
