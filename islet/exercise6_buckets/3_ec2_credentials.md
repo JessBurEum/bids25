@@ -38,6 +38,20 @@ If you haven’t installed the OpenStack client yet, install it first:
 
 *(See `2_application_credentials.md` for instructions on creating application credentials if you don’t have them yet.)*
 
+3. Check openstack cli working
+   ```bash
+   openstack server list
+
+   +--------------------------------------+---------------------------------------------------+--------+----------------------------------------+-----------------------------+-------------+
+   | ID                                   | Name                                              | Status | Networks                               | Image                       | Flavor      |
+   +--------------------------------------+---------------------------------------------------+--------+----------------------------------------+-----------------------------+-------------+
+   | dc08dad0-a00e-44d9-9a34-6b6fcf8cad9e | leonardo-jess-vm1                                 | ACTIVE | EUMETSAT_1=10.0.0.116, 217.71.197.133  | DEDL-Ubuntu 22.04 LTS       | eo2a.xlarge |
+   | ad5f2adc-2e23-45a9-879e-76b7c7ccaca2 | cluster-leonardo-bids-jess1-ahlzcnnfhwdr-node-0   | ACTIVE | cluster-leonardo-bids_jess1=10.0.0.123 | Fedora CoreOS 39 K8s-Magnum | eo2a.large  |
+   | b7783e8c-7008-4bb1-8a97-afd569011eb3 | cluster-leonardo-bids-jess1-ahlzcnnfhwdr-master-0 | ACTIVE | cluster-leonardo-bids_jess1=10.0.0.101 | Fedora CoreOS 39 K8s-Magnum | eo2a.large  |
+   +--------------------------------------+---------------------------------------------------+--------+----------------------------------------+-----------------------------+-------------+
+
+   ```
+
 ---
 
 ### Step 4: Create EC2 Credentials
